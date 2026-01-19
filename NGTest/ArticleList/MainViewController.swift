@@ -3,16 +3,24 @@
 //  NGTest
 
 import UIKit
+import Combine
 
 class MainViewController: UITableViewController {
 
     private var viewModel = ArticleListViewModel()
 
+    private var cancellables: Set<AnyCancellable> = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        viewModel.$articles
+            .sink { [weak self] _ in
+                self?.tableView.reloadData()
+            }
+            .store(in: &cancellables)
+
         viewModel.loadArticles()
-        tableView.reloadData()
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -36,5 +44,8 @@ class MainViewController: UITableViewController {
         return articleViewController
     }
     
+    @IBAction func onSortButtonTap(_ sender: Any) {
+        viewModel.sortByDate(ascending: true)
+    }
 }
 

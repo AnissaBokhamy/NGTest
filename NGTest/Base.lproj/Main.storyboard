@@ -52,7 +52,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Nuglif Test" id="RMb-WT-uN2">
-                        <barButtonItem key="rightBarButtonItem" title="Trier" id="N9K-QG-9ph"/>
+                        <barButtonItem key="rightBarButtonItem" title="Trier" id="N9K-QG-9ph">
+                            <connections>
+                                <action selector="onSortButtonTap:" destination="gex-J7-JyN" id="307-Wv-v4B"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9i-FL-ILO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -71,7 +75,7 @@
                                 <rect key="frame" x="0.0" y="150" width="414" height="678"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uGp-04-Wl2">
-                                        <rect key="frame" x="15" y="0.0" width="384" height="678"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="678"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrE-rU-hCU">
                                                 <rect key="frame" x="0.0" y="0.0" width="384" height="50"/>
@@ -148,7 +152,7 @@
                                     <constraint firstItem="uGp-04-Wl2" firstAttribute="leading" secondItem="OfU-zH-6Ud" secondAttribute="leading" constant="15" id="YNC-H8-I4d"/>
                                     <constraint firstItem="OfU-zH-6Ud" firstAttribute="bottom" secondItem="uGp-04-Wl2" secondAttribute="bottom" id="e8C-Ts-fdy"/>
                                     <constraint firstItem="uGp-04-Wl2" firstAttribute="bottom" secondItem="rTg-Xh-Z5J" secondAttribute="bottom" id="fL7-Uo-JIY"/>
-                                    <constraint firstItem="uGp-04-Wl2" firstAttribute="leading" secondItem="rTg-Xh-Z5J" secondAttribute="leading" constant="15" id="gQg-53-cEL"/>
+                                    <constraint firstItem="uGp-04-Wl2" firstAttribute="leading" secondItem="rTg-Xh-Z5J" secondAttribute="leading" id="gQg-53-cEL"/>
                                     <constraint firstItem="uGp-04-Wl2" firstAttribute="top" secondItem="rTg-Xh-Z5J" secondAttribute="top" id="h8o-YL-r3q"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="rTg-Xh-Z5J"/>

@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Article: Codable {
+struct Article: Codable, Equatable {
 
     let id: String
     let channelName: String
