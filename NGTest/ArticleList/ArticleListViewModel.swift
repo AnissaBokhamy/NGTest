@@ -8,6 +8,11 @@
 
 import Foundation
 
+enum SortingOrder {
+    case ascending
+    case descending
+}
+
 class ArticleListViewModel: ObservableObject {
 
     private static let articlesJsonFileName = "articles"
@@ -15,10 +20,15 @@ class ArticleListViewModel: ObservableObject {
 
 
     @Published var articles: [Article] = []
+    private var sortingOrder: SortingOrder?
 
     func loadArticles(decodeArticles: @escaping(() throws -> [Article]) = { try articlesJsonParser.decodeJSON() }) {
         guard let loadedArticles = try? decodeArticles() else { return }
         articles = loadedArticles
+    }
+
+    func sortByDate() {
+        sortByDate(ascending: sortingOrder != .ascending)
     }
 
     func sortByDate(ascending: Bool) {
@@ -29,5 +39,6 @@ class ArticleListViewModel: ObservableObject {
                 return lhs.publicationDate > rhs.publicationDate
             }
         }
+        sortingOrder = ascending ? .ascending : .descending
     }
 }

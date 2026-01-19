@@ -52,7 +52,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Nuglif Test" id="RMb-WT-uN2">
-                        <barButtonItem key="rightBarButtonItem" title="Trier" id="N9K-QG-9ph">
+                        <barButtonItem key="rightBarButtonItem" title="Trier" image="arrow.up.arrow.down" catalog="system" id="N9K-QG-9ph">
                             <connections>
                                 <action selector="onSortButtonTap:" destination="gex-J7-JyN" id="307-Wv-v4B"/>
                             </connections>
@@ -200,6 +200,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow.up.arrow.down" catalog="system" width="128" height="99"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

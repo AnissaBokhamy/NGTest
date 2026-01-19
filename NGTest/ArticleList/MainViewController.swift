@@ -49,9 +49,8 @@ class MainViewController: UITableViewController {
         articleViewController?.article = viewModel.articles[selectedArticle]
         return articleViewController
     }
-    
+
     @IBAction func onSortButtonTap(_ sender: Any) {
-        viewModel.sortByDate(ascending: true)
+        viewModel.sortByDate()
     }
 }
-
