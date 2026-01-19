@@ -1,299 +1,522 @@
 [
-  {
-    "id": "5150553",
-    "channelName": "Politique canadienne",
-    "title": "Trudeau promet des \u00abcentaines de millions\u00bb pour le tramway de Qu\u00e9bec",
-    "headlineRendering": {
-      "renderingType": "standard",
-      "position": "",
-      "tone": "0",
-      "transparency": "0",
-      "urlAdditionalPicture": ""
-    },
-    "lead": "Le projet de construire un tramway \u00e0 Qu\u00e9bec, cher \u00e0 R\u00e9gis Labeaume, a re\u00e7u un appui de taille jeudi. En rencontre priv\u00e9e avec le maire, le premier ministre du Canada lui a promis \u00abdes centaines de millions\u00bb pour r\u00e9aliser ses ambitions.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504369",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504369-premier-ministre-canada-justin-trudeau.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150553",
-    "modificationDate": "2018-01-18 13:54:00.000",
-    "publicationDate": "2018-01-18 13:54:00.000",
-    "sharedId": "wcm:article:5150553",
-    "className": "article"
-  },
-  {
-    "id": "5150526",
-    "channelName": "Grand Montr\u00e9al",
-    "title": "Couillard et Plante d\u00e9\u00e7us par la d\u00e9cision d'Amazon",
-    "lead": "Le premier ministre Philippe Couillard et la mairesse Val\u00e9rie Plante ont manifest\u00e9 leur d\u00e9ception face \u00e0 la d\u00e9cision du g\u00e9ant Amazon d'exclure Montr\u00e9al de la course pour am\u00e9nager son deuxi\u00e8me si\u00e8ge social.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504314",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504314-premier-ministre-quebec-philippe-couillard.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150526",
-    "modificationDate": "2018-01-18 13:06:00.000",
-    "publicationDate": "2018-01-18 11:36:00.000",
-    "sharedId": "wcm:article:5150526",
-    "className": "article"
-  },
-  {
-    "id": "5150555",
-    "channelName": "Proc\u00e8s",
-    "title": "Anatoliy Vdovin aurait offert 1000\u00a0$ pour tuer Ian Lafreni\u00e8re",
-    "lead": "La vie du commandant Ian Lafreni\u00e8re ne vaut \u00abpas plus\u00bb que 1000 $, indiquent deux annonces mises en ligne en 2013 dans le but de recruter un tueur \u00e0 gages pour tuer le responsable des communications du SPVM. Ces annonces ont \u00e9t\u00e9 publi\u00e9es par Anatoliy Vdovin \u00e0 la biblioth\u00e8que municipale de Westmount, entend d\u00e9montrer la poursuite au cours de ce proc\u00e8s devant jury amorc\u00e9 jeudi \u00e0 Montr\u00e9al.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504375",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504375-policier-ian-lafreniere-visages-plus.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150555",
-    "modificationDate": "2018-01-18 14:15:00.000",
-    "publicationDate": "2018-01-18 14:15:00.000",
-    "sharedId": "wcm:article:5150555",
-    "className": "article"
-  },
-  {
-    "id": "5150536",
-    "channelName": "\u00c9tats-Unis",
-    "title": "Premi\u00e8re comparution du couple soup\u00e7onn\u00e9 d'avoir s\u00e9questr\u00e9 ses 13 enfants",
-    "lead": "Le couple d'Am\u00e9ricains arr\u00eat\u00e9 dimanche en Californie, soup\u00e7onn\u00e9 d'avoir s\u00e9questr\u00e9 et tortur\u00e9 ses treize enfants, devait compara\u00eetre jeudi pour la premi\u00e8re fois devant un juge en vue de son inculpation formelle.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504335",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504335-david-allen-turpin-louise-ann.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150536",
-    "modificationDate": "2018-01-18 12:01:00.000",
-    "publicationDate": "2018-01-18 12:01:00.000",
-    "sharedId": "wcm:article:5150536",
-    "className": "article"
-  },
-  {
-    "id": "5150516",
-    "channelName": "Changements climatiques",
-    "title": "Les trois derni\u00e8res ann\u00e9es sont les plus chaudes jamais enregistr\u00e9es",
-    "lead": "Les trois derni\u00e8res ann\u00e9es ont \u00e9t\u00e9 les plus chaudes jamais enregistr\u00e9es sur la Terre, a averti jeudi l'ONU en r\u00e9v\u00e9lant des chiffres qui montrent un rythme \u00abexceptionnel\u00bb du r\u00e9chauffement au regard des donn\u00e9es collect\u00e9es depuis l'\u00e8re pr\u00e9-industrielle.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504297",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504297-apres-dernieres-donnees-organisation-meteorologique.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150516",
-    "modificationDate": "2018-01-18 14:05:00.000",
-    "publicationDate": "2018-01-18 10:38:00.000",
-    "sharedId": "wcm:article:5150516",
-    "className": "article"
-  },
-  {
-    "id": "5150550",
-    "channelName": "Soccer",
-    "title": "L'Impact fait l'acquisition du d\u00e9fenseur Michael Petrasso",
-    "lead": "L'Impact de Montr\u00e9al a annonc\u00e9 jeudi avoir fait l'acquisition du d\u00e9fenseur lat\u00e9ral droit canadien Michael Petrasso et il pourrait \u00eatre bient\u00f4t suivi du d\u00e9fenseur central Zakaria Diallo.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504385",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504385-defenseur-michael-petrasso-gauche-dispute.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150550",
-    "modificationDate": "2018-01-18 14:40:00.000",
-    "publicationDate": "2018-01-18 13:27:00.000",
-    "sharedId": "wcm:article:5150550",
-    "className": "article"
-  },
-  {
-    "id": "5150549",
-    "channelName": "International",
-    "title": "Les \u00c9tats-Unis n'ont pas la cote au sein de la population mondiale",
-    "lead": "Un nouveau sondage r\u00e9alis\u00e9 \u00e0 l'\u00e9chelle mondiale r\u00e9v\u00e8le une chute spectaculaire dans l'appr\u00e9ciation du leadership am\u00e9ricain sous Donald Trump - et une baisse particuli\u00e8rement brutale au Canada.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504357",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504357-nombre-repondants-canadiens-approuvent-performance.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150549",
-    "modificationDate": "2018-01-18 13:30:00.000",
-    "publicationDate": "2018-01-18 13:30:00.000",
-    "sharedId": "wcm:article:5150549",
-    "className": "article"
-  },
-  {
-    "id": "5150545",
-    "channelName": "Politique canadienne",
-    "title": "Labeaume demande l'aide de Trudeau pour attirer des immigrants francophones",
-    "lead": "R\u00e9gis Labeaume demande \u00e0 Ottawa d'assouplir les r\u00e8gles de l'immigration pour pouvoir attirer davantage de travailleurs de l'Europe francophone.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504348",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504348-premier-ministre-canada-justin-trudeau.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150545",
-    "modificationDate": "2018-01-18 12:56:00.000",
-    "publicationDate": "2018-01-18 12:56:00.000",
-    "sharedId": "wcm:article:5150545",
-    "className": "article"
-  },
-  {
-    "id": "5150537",
-    "channelName": "Politique qu\u00e9b\u00e9coise",
-    "title": "Sol Zanetti souhaite \u00eatre candidat pour QS dans Jean-Lesage",
-    "lead": "L'ancien chef d'Option nationale (ON), Sol Zanetti, \u00e0 qui Qu\u00e9bec solidaire (QS) avait promis l'une des circonscriptions \u00ab\u00a0les plus favorables\u00a0\u00bb pour convaincre son parti de fusionner\u00a0avec le leur, se pr\u00e9sente \u00e0 l'investiture de QS dans la circonscription de Jean-Lesage, \u00e0 Qu\u00e9bec.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504336",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504336-gabriel-nadeau-dubois-depute-circonscription.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150537",
-    "modificationDate": "2018-01-18 12:01:00.000",
-    "publicationDate": "2018-01-18 12:01:00.000",
-    "sharedId": "wcm:article:5150537",
-    "className": "article"
-  },
-  {
-    "id": "5150495",
-    "channelName": "\u00c9conomie",
-    "title": "Si\u00e8ge social d'Amazon: Montr\u00e9al exclu",
-    "characteristic": {
-      "isExclusive": "",
-      "isLive": "",
-      "isBreakingNews": ""
-    },
-    "lead": "Montr\u00e9al n'a pas \u00e9t\u00e9 retenue dans la liste des 20\u00a0villes candidates pour un deuxi\u00e8me si\u00e8ge social d'Amazon en Am\u00e9rique du Nord.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1484873",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201710/23/1484873-detaillant-ligne-amazon-avait-lance.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150495",
-    "modificationDate": "2018-01-18 14:48:00.000",
-    "publicationDate": "2018-01-18 09:19:00.000",
-    "sharedId": "wcm:article:5150495",
-    "className": "article"
-  },
-  {
-    "id": "5150523",
-    "channelName": "Politique canadienne",
-    "title": "Davie: Trudeau confirme qu'il veut les brise-glaces",
-    "lead": "Les n\u00e9gociations pour la location des quatre brise-glaces du chantier maritime Davie par le gouvernement f\u00e9d\u00e9ral d\u00e9buteront vendredi, a affirm\u00e9 le premier ministre Justin Trudeau jeudi matin \u00e0 l'antenne de Radio-Canada \u00e0 Qu\u00e9bec lors de son passage dans la r\u00e9gion.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504304",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504304-chantier-maritime-davie-levis.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150523",
-    "modificationDate": "2018-01-18 14:45:00.000",
-    "publicationDate": "2018-01-18 11:12:00.000",
-    "sharedId": "wcm:article:5150523",
-    "className": "article"
-  },
-  {
-    "id": "5150511",
-    "channelName": "La menace nord-cor\u00e9enne",
-    "title": "Tillerson accuse la Russie de fournir du carburant \u00e0 la Cor\u00e9e du Nord",
-    "lead": "Le secr\u00e9taire d'\u00c9tat am\u00e9ricain Rex Tillerson a accus\u00e9 la Russie d'aider la Cor\u00e9e du Nord \u00e0 contourner certaines sanctions internationales contre ses programmes nucl\u00e9aire et balistiques.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504281",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504281-secretaire-etat-americain-rex-tillerson.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150511",
-    "modificationDate": "2018-01-18 10:13:00.000",
-    "publicationDate": "2018-01-18 10:13:00.000",
-    "sharedId": "wcm:article:5150511",
-    "className": "article"
-  },
-  {
-    "id": "5150480",
-    "channelName": "Europe",
-    "title": "Temp\u00eate: chaos dans les transports et six morts dans le nord de l'Europe",
-    "lead": "Le trafic ferroviaire grandes lignes \u00e9tait compl\u00e8tement suspendu jeudi en Allemagne et aux Pays-Bas et de nombreux avions clou\u00e9s au sol \u00e0 cause d'une temp\u00eate qui a d\u00e9j\u00e0 fait six morts dans le nord de l'Europe.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504306",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504306-deux-camions-ete-renverses-vents.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150480",
-    "modificationDate": "2018-01-18 12:00:00.000",
-    "publicationDate": "2018-01-18 08:21:00.000",
-    "sharedId": "wcm:article:5150480",
-    "className": "article"
-  },
-  {
-    "id": "5150462",
-    "channelName": "National",
-    "title": "Opio\u00efdes: recevoir la mort par la poste",
-    "lead": "Surnomm\u00e9e Pink, Pinky ou encore U-4 aux \u00c9tats-Unis, l'U-47700\u00a0- drogue de synth\u00e8se qui vient d'appara\u00eetre dans l'est du Canada -\u00a0a fait une premi\u00e8re victime au Qu\u00e9bec, a appris\u00a0<em>La Presse</em>. Le p\u00e8re du jeune homme mort d'une surdose implore les autorit\u00e9s canadiennes d'en faire davantage pour intercepter les opio\u00efdes livr\u00e9s par la poste.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504205",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504205.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150462",
-    "modificationDate": "2018-01-18 12:21:00.000",
-    "publicationDate": "2018-01-18 07:09:00.000",
-    "sharedId": "wcm:article:5150462",
-    "className": "article"
-  },
-  {
-    "id": "5150450",
-    "channelName": "Faits divers",
-    "title": "La carcasse d'un camion incendi\u00e9 sur l'A25 Nord g\u00eane toujours le trafic",
-    "lead": "La circulation en direction nord dans le pont-tunnel Louis-Hippolyte-LaFontaine devrait s'am\u00e9liorer jeudi matin en raison d'une r\u00e9ouverture de voies sur l'autoroute\u00a025, au sortir du tunnel, \u00e0 Montr\u00e9al.",
-    "type": "nouvelles",
-    "visual": [
-      {
-        "id": "1504229",
-        "className": "photo",
-        "urlPattern": "http://images.lpcdn.ca/315x210/201801/18/1504229-gens-travaillent-degager-voie-accident.jpg"
-      }
-    ],
-    "dataUrl": "http://mcbp.cyberpresse.ca/article/detail/5150450",
-    "modificationDate": "2018-01-18 12:10:00.000",
-    "publicationDate": "2018-01-18 06:05:00.000",
-    "sharedId": "wcm:article:5150450",
-    "className": "article"
-  }
+	{
+		"id": "9cbf56c37ddb3f55a5e7f7a6d977c3a2",
+		"channelName": "Actualités",
+		"title": "Le retour au travail en présentiel ne plaît pas aux fonctionnaires",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "9cbf56c37ddb3f55a5e7f7a6d977c3a2",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/ef72dc475d6532ae94efbaac7c89235d.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/9cbf56c37ddb3f55a5e7f7a6d977c3a2?ts=1767902528",
+		"modificationDate": "2026-01-08 13:15:57.000",
+		"publicationDate": "2026-01-08 13:15:57.000",
+		"sharedId": "wcm:article:9cbf56c37ddb3f55a5e7f7a6d977c3a2",
+		"className": "article"
+	},
+	{
+		"id": "81f3178ab0253f26a17975a8dfbd7aa4",
+		"channelName": "Justice et faits divers",
+		"title": "La famille endeuillée lance un cri du cœur contre l’alcool au volant",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "81f3178ab0253f26a17975a8dfbd7aa4",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/f625b5bfec6b306ba366e22ba26634a1.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/81f3178ab0253f26a17975a8dfbd7aa4?ts=1767902399",
+		"modificationDate": "2026-01-08 13:34:03.000",
+		"publicationDate": "2026-01-08 13:34:03.000",
+		"sharedId": "wcm:article:81f3178ab0253f26a17975a8dfbd7aa4",
+		"className": "article"
+	},
+	{
+		"id": "6baf442e4aca3c07b2e6edd1257cc2e6",
+		"channelName": "Chroniques",
+		"title": "Notre lait a changé… le saviez-vous ?",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "6baf442e4aca3c07b2e6edd1257cc2e6",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/34c55be0/7a7f38481ff236ea8dd0517da4d0a028.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/6baf442e4aca3c07b2e6edd1257cc2e6?ts=1767871847",
+		"modificationDate": "2026-01-08 06:30:00.000",
+		"publicationDate": "2026-01-08 06:30:00.000",
+		"sharedId": "wcm:article:6baf442e4aca3c07b2e6edd1257cc2e6",
+		"className": "article"
+	},
+	{
+		"id": "54cc1b511a75346b93bb4bc3e0da503e",
+		"channelName": "National",
+		"title": "Un nouvel outil pour suivre les promesses brisées",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "54cc1b511a75346b93bb4bc3e0da503e",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/34948a58141235439c2c019d5e3328e1.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/54cc1b511a75346b93bb4bc3e0da503e?ts=1767902528",
+		"modificationDate": "2026-01-08 13:30:00.000",
+		"publicationDate": "2026-01-08 13:30:00.000",
+		"sharedId": "wcm:article:54cc1b511a75346b93bb4bc3e0da503e",
+		"className": "article"
+	},
+	{
+		"id": "d1bea05e1e45327b92cf6417486fc5aa",
+		"channelName": "Affaires",
+		"title": "Un feu vert fédéral, en attendant la contestation",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "d1bea05e1e45327b92cf6417486fc5aa",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/7889bfbe03ed3fad8535561dd2021723.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/d1bea05e1e45327b92cf6417486fc5aa?ts=1767904123",
+		"modificationDate": "2026-01-08 14:14:39.000",
+		"publicationDate": "2026-01-08 13:25:18.000",
+		"sharedId": "wcm:article:d1bea05e1e45327b92cf6417486fc5aa",
+		"className": "article"
+	},
+	{
+		"id": "51766d2e35243525ae70e173cd15c2ed",
+		"channelName": "Chroniques",
+		"title": "La justice sociale jusqu’à son dernier souffle",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "51766d2e35243525ae70e173cd15c2ed",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/34c55be0/0f2cdd9cfbab314a9cf0331240a585ff.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/51766d2e35243525ae70e173cd15c2ed?ts=1767876637",
+		"modificationDate": "2026-01-08 05:00:00.000",
+		"publicationDate": "2026-01-08 05:00:00.000",
+		"sharedId": "wcm:article:51766d2e35243525ae70e173cd15c2ed",
+		"className": "article"
+	},
+	{
+		"id": "e05164697e6f397d8969dd2550e020ef",
+		"channelName": "Plein air",
+		"title": "Aventurières et mamans",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "e05164697e6f397d8969dd2550e020ef",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/39391399/2f2b367614b93739be86c20e9ae2a12b.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/e05164697e6f397d8969dd2550e020ef?ts=1767889847",
+		"modificationDate": "2026-01-08 11:30:00.000",
+		"publicationDate": "2026-01-08 11:30:00.000",
+		"sharedId": "wcm:article:e05164697e6f397d8969dd2550e020ef",
+		"className": "article"
+	},
+	{
+		"id": "bfc400eeed74307f9101a4156d285c9f",
+		"channelName": "Télévision",
+		"title": "Empathie domine sur Crave, L’appel s’impose sur illico+",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "bfc400eeed74307f9101a4156d285c9f",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/35558119/ed508947d4643976b11ed9648e1da3fe.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/bfc400eeed74307f9101a4156d285c9f?ts=1767895097",
+		"modificationDate": "2026-01-08 06:00:00.000",
+		"publicationDate": "2026-01-08 06:00:00.000",
+		"sharedId": "wcm:article:bfc400eeed74307f9101a4156d285c9f",
+		"className": "article"
+	},
+	{
+		"id": "e87c442e5e1b374a849a77ee50ff3ef6",
+		"channelName": "Affaires",
+		"title": "Encore trop de bois dans le fromage déjà râpé",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "e87c442e5e1b374a849a77ee50ff3ef6",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/f1b09ad879c03055a78c02c48d61893f.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/e87c442e5e1b374a849a77ee50ff3ef6?ts=1767872563",
+		"modificationDate": "2026-01-08 05:00:00.000",
+		"publicationDate": "2026-01-08 05:00:00.000",
+		"sharedId": "wcm:article:e87c442e5e1b374a849a77ee50ff3ef6",
+		"className": "article"
+	},
+	{
+		"id": "cac7d7d3a2d433b3a5d0514f565f4688",
+		"channelName": "Sciences",
+		"title": "Une découverte de McGill pourrait améliorer le succès des fécondations in vitro",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "cac7d7d3a2d433b3a5d0514f565f4688",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/c1370302c6323cffa18bc6134240baa3.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/cac7d7d3a2d433b3a5d0514f565f4688",
+		"modificationDate": "2026-01-08 12:31:04.000",
+		"publicationDate": "2026-01-08 12:31:04.000",
+		"sharedId": "wcm:article:cac7d7d3a2d433b3a5d0514f565f4688",
+		"className": "article"
+	},
+	{
+		"id": "3509170e634a362590793b5847413f17",
+		"channelName": "Sports",
+		"title": "Les Alouettes confirment le retour de Jason Maas",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "L'entraîneur-chef sera de retour pour une troisième saison en 2026.",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "3509170e634a362590793b5847413f17",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/9638b9b46617c09f3ca171.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/3509170e634a362590793b5847413f17",
+		"modificationDate": "2026-01-08 11:00:00.000",
+		"publicationDate": "2026-01-08 11:00:00.000",
+		"sharedId": "wcm:article:3509170e634a362590793b5847413f17",
+		"className": "article"
+	},
+	{
+		"id": "b937667389e03513b19a16f6b15a676b",
+		"channelName": "International",
+		"title": "L'Australie fait face à des incendies records",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "Des milliers d'hectares sont partis en fumée en moins de 48 heures.",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "b937667389e03513b19a16f6b15a676b",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/f15a676b89e03513b19a.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/b937667389e03513b19a16f6b15a676b",
+		"modificationDate": "2026-01-08 10:45:00.000",
+		"publicationDate": "2026-01-08 10:45:00.000",
+		"sharedId": "wcm:article:b937667389e03513b19a16f6b15a676b",
+		"className": "article"
+	},
+	{
+		"id": "66bc424458f430548177579899187e14",
+		"channelName": "Économie",
+		"title": "Inflation : les prix alimentaires se stabilisent enfin",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "66bc424458f430548177579899187e14",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/99187e1458f430548177.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/66bc424458f430548177579899187e14",
+		"modificationDate": "2026-01-08 09:15:00.000",
+		"publicationDate": "2026-01-08 09:15:00.000",
+		"sharedId": "wcm:article:66bc424458f430548177579899187e14",
+		"className": "article"
+	},
+	{
+		"id": "5924976767673f4e857463f6a27e02e0",
+		"channelName": "Santé",
+		"title": "Nouvelle percée dans le traitement du diabète de type 1",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "Des chercheurs montréalais publient des résultats prometteurs.",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "5924976767673f4e857463f6a27e02e0",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/a27e02e0592497676767.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/5924976767673f4e857463f6a27e02e0",
+		"modificationDate": "2026-01-08 08:30:00.000",
+		"publicationDate": "2026-01-08 08:30:00.000",
+		"sharedId": "wcm:article:5924976767673f4e857463f6a27e02e0",
+		"className": "article"
+	},
+	{
+		"id": "ec1231f8274636f383e74c8563c65df5",
+		"channelName": "Culture",
+		"title": "Le Musée des Beaux-Arts dévoile sa programmation estivale",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "ec1231f8274636f383e74c8563c65df5",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/c3c65df5ec1231f82746.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/ec1231f8274636f383e74c8563c65df5",
+		"modificationDate": "2026-01-08 07:50:00.000",
+		"publicationDate": "2026-01-08 07:50:00.000",
+		"sharedId": "wcm:article:ec1231f8274636f383e74c8563c65df5",
+		"className": "article"
+	},
+	{
+		"id": "745e69e320493863a3d2e96030990264",
+		"channelName": "Techno",
+		"title": "Intelligence artificielle : une réglementation plus stricte dès 2026",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "Ottawa s'apprête à déposer un nouveau cadre législatif.",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "745e69e320493863a3d2e96030990264",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/30990264745e69e32049.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/745e69e320493863a3d2e96030990264",
+		"modificationDate": "2026-01-08 07:20:00.000",
+		"publicationDate": "2026-01-08 07:20:00.000",
+		"sharedId": "wcm:article:745e69e320493863a3d2e96030990264",
+		"className": "article"
+	},
+	{
+		"id": "99908153f3e13d9db7c3905085e656d0",
+		"channelName": "Environnement",
+		"title": "La fonte des glaciers s’accélère dans le Nord québécois",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "99908153f3e13d9db7c3905085e656d0",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/85e656d099908153f3e1.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/99908153f3e13d9db7c3905085e656d0",
+		"modificationDate": "2026-01-08 06:45:00.000",
+		"publicationDate": "2026-01-08 06:45:00.000",
+		"sharedId": "wcm:article:99908153f3e13d9db7c3905085e656d0",
+		"className": "article"
+	},
+	{
+		"id": "16b03b65e4de398fa22ff7680c5e2cd6",
+		"channelName": "Politique",
+		"title": "Un pas de plus vers l’indépendance énergétique pour les communautés isolées",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "Le gouvernement du Québec a annoncé jeudi l'octroi d'une aide financière de 15 millions de dollars.",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "16b03b65e4de398fa22ff7680c5e2cd6",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/23249787e91433f7893a9f029052601b.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/16b03b65e4de398fa22ff7680c5e2cd6?ts=1767902528",
+		"modificationDate": "2026-01-08 13:21:44.000",
+		"publicationDate": "2026-01-08 13:21:44.000",
+		"sharedId": "wcm:article:16b03b65e4de398fa22ff7680c5e2cd6",
+		"className": "article"
+	},
+	{
+		"id": "f5e6191b24133f9b8705b76255146fbe",
+		"channelName": "Voyages",
+		"title": "Quelles sont les destinations les plus sûres en 2026 ?",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "Le Japon et l'Islande dominent le classement cette année.",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "f5e6191b24133f9b8705b76255146fbe",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/55146fbef5e6191b2413.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/f5e6191b24133f9b8705b76255146fbe",
+		"modificationDate": "2026-01-08 06:10:00.000",
+		"publicationDate": "2026-01-08 06:10:00.000",
+		"sharedId": "wcm:article:f5e6191b24133f9b8705b76255146fbe",
+		"className": "article"
+	},
+	{
+		"id": "814c810d7a9638b9b46617c09f3ca171",
+		"channelName": "Cinéma",
+		"title": "Un record au box-office pour le dernier film d'animation québécois",
+		"headlineRendering": {
+			"renderingType": "standard",
+			"position": "",
+			"tone": "0",
+			"transparency": "0",
+			"urlAdditionalPicture": ""
+		},
+		"lead": "",
+		"type": "nouvelles",
+		"visual": [
+			{
+				"id": "814c810d7a9638b9b46617c09f3ca171",
+				"className": "photo",
+				"urlPattern": "https://mobile-img.lpcdn.ca/v2/828x/r3996/9f3ca171814c810d7a96.webp"
+			}
+		],
+		"dataUrl": "https://api.rb-fe.nuglif.net/posts/814c810d7a9638b9b46617c09f3ca171",
+		"modificationDate": "2026-01-08 05:45:00.000",
+		"publicationDate": "2026-01-08 05:45:00.000",
+		"sharedId": "wcm:article:814c810d7a9638b9b46617c09f3ca171",
+		"className": "article"
+	}
 ]
