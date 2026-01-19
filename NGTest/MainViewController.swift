@@ -33,5 +33,15 @@ class MainViewController: UITableViewController {
         cell.detailTextLabel?.text = item.publicationDate
         return cell
     }
+
+    // MARK: - Navigation
+    @IBSegueAction func presentArticleViewController(_ coder: NSCoder) -> ArticleViewController? {
+        let articleViewController = ArticleViewController(coder: coder)
+
+        guard let selectedArticle = tableView.indexPathForSelectedRow?.row else { return nil }
+        articleViewController?.article = articles[selectedArticle]
+        return articleViewController
+    }
+    
 }
 

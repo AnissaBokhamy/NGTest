@@ -14,6 +14,7 @@ class ArticleViewController: UIViewController {
 
     @MainActor var article: Article? {
         didSet {
+            guard isViewLoaded else { return }
             updateView()
         }
     }
@@ -32,12 +33,16 @@ class ArticleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        updateView()
     }
 
     // MARK: - Methods
 
     private func updateView() {
-
+        guard let article else { return }
+        channelLabel.text = article.channelName
+        publicationDateLabel.text = article.publicationDate.description
+        modificationDateLabel.text = article.publicationDate.description
+        titleLabel.text = article.title
     }
 }
