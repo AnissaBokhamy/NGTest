@@ -7,9 +7,12 @@ import Combine
 
 class MainViewController: UITableViewController {
 
-    private var viewModel = ArticleListViewModel()
+    // MARK: - Properties
 
+    private var viewModel = ArticleListViewModel()
     private var cancellables: Set<AnyCancellable> = []
+
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +25,8 @@ class MainViewController: UITableViewController {
 
         viewModel.loadArticles()
     }
+
+    // MARK: - TableViewDelegate
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.articles.count
@@ -36,6 +41,7 @@ class MainViewController: UITableViewController {
     }
 
     // MARK: - Navigation
+
     @IBSegueAction func presentArticleViewController(_ coder: NSCoder) -> ArticleViewController? {
         let articleViewController = ArticleViewController(coder: coder)
 
