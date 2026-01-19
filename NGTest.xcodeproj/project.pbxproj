@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		974FC79C227BB11B00C94130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FC79B227BB11B00C94130 /* AppDelegate.swift */; };
-		974FC79E227BB11B00C94130 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FC79D227BB11B00C94130 /* MainViewController.swift */; };
 		974FC7A1227BB11B00C94130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974FC79F227BB11B00C94130 /* Main.storyboard */; };
 		974FC7A3227BB11C00C94130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974FC7A2227BB11C00C94130 /* Assets.xcassets */; };
 		974FC7A6227BB11C00C94130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974FC7A4227BB11C00C94130 /* LaunchScreen.storyboard */; };
@@ -33,7 +32,6 @@
 /* Begin PBXFileReference section */
 		974FC798227BB11B00C94130 /* NGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		974FC79B227BB11B00C94130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		974FC79D227BB11B00C94130 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		974FC7A0227BB11B00C94130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		974FC7A2227BB11C00C94130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974FC7A5227BB11C00C94130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +46,10 @@
 		F4FD474B2F1EC7B3002C4F6E /* JSONFileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileParser.swift; sourceTree = "<group>"; };
 		F4FD474E2F1ED546002C4F6E /* JSONFileParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileParserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F4FD474A2F1EC107002C4F6E /* ArticleList */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ArticleList; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		974FC795227BB11B00C94130 /* Frameworks */ = {
@@ -91,8 +93,8 @@
 			children = (
 				974FC7BB227BB1E100C94130 /* Supporting Files */,
 				974FC79B227BB11B00C94130 /* AppDelegate.swift */,
-				974FC79D227BB11B00C94130 /* MainViewController.swift */,
 				F4FD474B2F1EC7B3002C4F6E /* JSONFileParser.swift */,
+				F4FD474A2F1EC107002C4F6E /* ArticleList */,
 				F461E1E92F15BAF400153295 /* ArticleViewController.swift */,
 				974FC7BE227BD71400C94130 /* Article.swift */,
 				974FC79F227BB11B00C94130 /* Main.storyboard */,
@@ -135,6 +137,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F4FD474A2F1EC107002C4F6E /* ArticleList */,
 			);
 			name = NGTest;
 			productName = NGTest;
@@ -226,7 +231,6 @@
 			files = (
 				F4FD474D2F1EC7B4002C4F6E /* JSONFileParser.swift in Sources */,
 				F461E1EA2F15BAFE00153295 /* ArticleViewController.swift in Sources */,
-				974FC79E227BB11B00C94130 /* MainViewController.swift in Sources */,
 				974FC79C227BB11B00C94130 /* AppDelegate.swift in Sources */,
 				974FC7BF227BD71400C94130 /* Article.swift in Sources */,
 			);
