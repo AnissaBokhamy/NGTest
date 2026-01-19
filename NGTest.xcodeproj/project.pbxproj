@@ -15,6 +15,7 @@
 		974FC7B1227BB11C00C94130 /* NGTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FC7B0227BB11C00C94130 /* NGTestTests.swift */; };
 		974FC7BD227BB1F400C94130 /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 974FC7BC227BB1F400C94130 /* articles.json */; };
 		974FC7BF227BD71400C94130 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FC7BE227BD71400C94130 /* Article.swift */; };
+		F461E1EA2F15BAFE00153295 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461E1E92F15BAF400153295 /* ArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		974FC7BC227BB1F400C94130 /* articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
 		974FC7BE227BD71400C94130 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		974FC7C0227BDD7000C94130 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		F461E1E92F15BAF400153295 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				974FC7BB227BB1E100C94130 /* Supporting Files */,
 				974FC79B227BB11B00C94130 /* AppDelegate.swift */,
 				974FC79D227BB11B00C94130 /* MainViewController.swift */,
+				F461E1E92F15BAF400153295 /* ArticleViewController.swift */,
 				974FC7BE227BD71400C94130 /* Article.swift */,
 				974FC79F227BB11B00C94130 /* Main.storyboard */,
 				974FC7A2227BB11C00C94130 /* Assets.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F461E1EA2F15BAFE00153295 /* ArticleViewController.swift in Sources */,
 				974FC79E227BB11B00C94130 /* MainViewController.swift in Sources */,
 				974FC79C227BB11B00C94130 /* AppDelegate.swift in Sources */,
 				974FC7BF227BD71400C94130 /* Article.swift in Sources */,
