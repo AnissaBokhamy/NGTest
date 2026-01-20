@@ -20,6 +20,7 @@ class ArticleListViewModel: ObservableObject {
 
 
     @Published var articles: [Article] = []
+    private var originalArticlesData: [Article] = []
     private var sortingOrder: SortingOrder?
 
     var allFilters: FiltersViewModel {
@@ -33,6 +34,7 @@ class ArticleListViewModel: ObservableObject {
 
     func loadArticles(decodeArticles: @escaping(() throws -> [Article]) = { try articlesJsonParser.decodeJSON() }) {
         guard let loadedArticles = try? decodeArticles() else { return }
+        originalArticlesData = loadedArticles
         articles = loadedArticles
     }
 
