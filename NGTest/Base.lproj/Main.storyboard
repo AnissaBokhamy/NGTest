@@ -52,12 +52,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Nuglif Test" id="RMb-WT-uN2">
-                        <barButtonItem key="rightBarButtonItem" title="Trier" image="arrow.up.arrow.down" catalog="system" id="N9K-QG-9ph">
-                            <connections>
-                                <action selector="onSortButtonTap:" destination="gex-J7-JyN" id="307-Wv-v4B"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Trier" image="arrow.up.arrow.down" catalog="system" id="N9K-QG-9ph">
+                                <connections>
+                                    <action selector="onSortButtonTap:" destination="gex-J7-JyN" id="307-Wv-v4B"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Filter" image="line.3.horizontal.decrease.circle" catalog="system" id="M4g-BB-tna"/>
+                        </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="filterButton" destination="M4g-BB-tna" id="qGf-8h-cXL"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9i-FL-ILO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -201,6 +207,7 @@
     </scenes>
     <resources>
         <image name="arrow.up.arrow.down" catalog="system" width="128" height="99"/>
+        <image name="line.3.horizontal.decrease.circle" catalog="system" width="128" height="123"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

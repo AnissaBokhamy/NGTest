@@ -22,6 +22,15 @@ class ArticleListViewModel: ObservableObject {
     @Published var articles: [Article] = []
     private var sortingOrder: SortingOrder?
 
+    var allFilters: FiltersViewModel {
+        FiltersViewModel(
+            filters: Set(
+                originalArticlesData.compactMap({ $0.channelName })
+            )
+            .compactMap({ FilterViewModel(text: $0) })
+        )
+    }
+
     func loadArticles(decodeArticles: @escaping(() throws -> [Article]) = { try articlesJsonParser.decodeJSON() }) {
         guard let loadedArticles = try? decodeArticles() else { return }
         articles = loadedArticles
@@ -40,5 +49,9 @@ class ArticleListViewModel: ObservableObject {
             }
         }
         sortingOrder = ascending ? .ascending : .descending
+    }
+
+    func filterByChannelName(_ channelName: String) {
+        articles = originalArticlesData.filter({ $0.channelName == channelName })
     }
 }

@@ -12,14 +12,24 @@ class MainViewController: UITableViewController {
     private var viewModel = ArticleListViewModel()
     private var cancellables: Set<AnyCancellable> = []
 
+    // MARK: - Views
+    @IBOutlet private weak var filterButton: UIBarButtonItem!
+
+    // MARK: - Menu
+    private var filtersMenu: UIMenu {
+        return UIMenu.createFilterMenu(from: viewModel.allFilters, filteringHandler: viewModel.filterByChannelName)
+    }
+
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         viewModel.$articles
+            .receive(on: DispatchQueue.main)
             .sink { [weak self] _ in
                 self?.tableView.reloadData()
+                self?.reloadFilters()
             }
             .store(in: &cancellables)
 
@@ -40,6 +50,12 @@ class MainViewController: UITableViewController {
         return cell
     }
 
+    // MARK: - Filters
+
+    private func reloadFilters() {
+        filterButton.menu = filtersMenu
+    }
+    
     // MARK: - Navigation
 
     @IBSegueAction func presentArticleViewController(_ coder: NSCoder) -> ArticleViewController? {
