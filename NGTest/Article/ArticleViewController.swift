@@ -42,7 +42,14 @@ class ArticleViewController: UIViewController {
         guard let article else { return }
         channelLabel.text = article.channelName
         publicationDateLabel.text = article.publicationDate.description
-        modificationDateLabel.text = article.publicationDate.description
+
+        if let modificationDate = article.modificationDate {
+            modificationDateLabel.text = modificationDate.description
+            modificationDateLabel.isHidden = false
+        } else {
+            modificationDateLabel.isHidden = true
+        }
+
         titleLabel.text = article.title
     }
 }
