@@ -16,7 +16,7 @@ enum SortingOrder {
 class ArticleListViewModel: ObservableObject {
 
     private static let articlesJsonFileName = "articles"
-    private static let articlesJsonParser = JSONFileParser<[Article]>(fileName: articlesJsonFileName)
+    private static let articlesJsonParser = JSONFileParser<[Article]>(fileInputString: articlesJsonFileName)
 
 
     @Published var articles: [Article] = []
