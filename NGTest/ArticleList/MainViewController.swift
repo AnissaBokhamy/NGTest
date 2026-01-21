@@ -67,7 +67,7 @@ class MainViewController: UITableViewController {
         let articleViewController = ArticleViewController(coder: coder)
 
         guard let selectedArticle = tableView.indexPathForSelectedRow?.row else { return nil }
-        articleViewController?.article = viewModel.articles[selectedArticle]
+        articleViewController?.viewModel = ArticleViewModel(article: viewModel.articles[selectedArticle])
         return articleViewController
     }
 
