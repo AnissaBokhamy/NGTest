@@ -22,6 +22,7 @@
 		F4FD474F2F1ED546002C4F6E /* JSONFileParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FD474E2F1ED546002C4F6E /* JSONFileParserTests.swift */; };
 		F4FF1D102F2052DD00E3B97F /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF1D0F2F2052D700E3B97F /* ArticleViewModel.swift */; };
 		F4FF1D122F20553600E3B97F /* DataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF1D112F20553200E3B97F /* DataDownloader.swift */; };
+		F4FF1D142F206E4000E3B97F /* ArticleContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF1D132F206E4000E3B97F /* ArticleContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F4FD47542F1EE061002C4F6E /* ArticleListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModelTests.swift; sourceTree = "<group>"; };
 		F4FF1D0F2F2052D700E3B97F /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		F4FF1D112F20553200E3B97F /* DataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
+		F4FF1D132F206E4000E3B97F /* ArticleContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -109,6 +111,7 @@
 				F4FF1D0E2F2052CB00E3B97F /* Article */,
 				F4A2ABFF2F1FB84800873428 /* UIComponents */,
 				974FC7BE227BD71400C94130 /* Article.swift */,
+				F4FF1D132F206E4000E3B97F /* ArticleContent.swift */,
 				974FC79F227BB11B00C94130 /* Main.storyboard */,
 				974FC7A2227BB11C00C94130 /* Assets.xcassets */,
 				974FC7A4227BB11C00C94130 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				F4A2AC0B2F1FB9FB00873428 /* FiltersViewModel.swift in Sources */,
 				F461E1EA2F15BAFE00153295 /* ArticleViewController.swift in Sources */,
 				F4E68A802F203EE9003E8FE3 /* FilterMenu.swift in Sources */,
+				F4FF1D142F206E4000E3B97F /* ArticleContent.swift in Sources */,
 				F4FF1D122F20553600E3B97F /* DataDownloader.swift in Sources */,
 				F4FF1D102F2052DD00E3B97F /* ArticleViewModel.swift in Sources */,
 				974FC79C227BB11B00C94130 /* AppDelegate.swift in Sources */,

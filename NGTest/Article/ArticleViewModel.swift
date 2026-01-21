@@ -21,7 +21,7 @@ class ArticleViewModel: ObservableObject {
     @Published var content: String?
 
     private let imageDownloader: (String) async throws -> UIImage
-    private let textDownloader: (String) async throws -> String
+    private let contentDecoder: (String) async throws -> Root
 
     private let imageURLString: String?
     private let contentURLString: String
@@ -29,7 +29,7 @@ class ArticleViewModel: ObservableObject {
     init(
         article: Article,
         imageDownloader: @escaping (String) async throws -> UIImage = { try await DataDownloader<UIImage>(dataConverter: { data in UIImage(data: data) }).downloadData(from: $0)},
-        textDownloader: @escaping (String) async throws -> String = { try await DataDownloader<String>(dataConverter: { data in String(data: data, encoding: .utf8) }).downloadData(from: $0) }
+        contentDecoder: @escaping (String) async throws -> Root =  { try JSONFileParser<Root>(fileInputString: $0, inputType: .remoteURLString).decodeJSON() }
     ) {
         channelName = article.channelName
         title = article.title
@@ -38,7 +38,7 @@ class ArticleViewModel: ObservableObject {
         imageURLString = article.imageUrl
         contentURLString = article.dataUrl
         self.imageDownloader = imageDownloader
-        self.textDownloader = textDownloader
+        self.contentDecoder = contentDecoder
     }
 
     func loadImage() async {
@@ -47,6 +47,13 @@ class ArticleViewModel: ObservableObject {
     }
 
     func loadContent() async {
-        content = try? await textDownloader(contentURLString)
+        let textFound = try? await contentDecoder(contentURLString)
+        content = textFound?.text
+    }
+}
+
+extension Root {
+    var text: String? {
+        data.items?.compactMap(\.text?.text).joined(separator: "\n")
     }
 }
