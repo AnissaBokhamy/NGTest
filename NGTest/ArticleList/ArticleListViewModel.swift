@@ -20,17 +20,22 @@ class ArticleListViewModel: ObservableObject {
 
 
     @Published var articles: [Article] = []
-    private var originalArticlesData: [Article] = []
+    @Published var filters: FiltersViewModel?
+    private var originalArticlesData: [Article] = [] {
+        didSet {
+            filters = allFilters
+        }
+    }
     private var sortingOrder: SortingOrder?
 
-    var allFilters: FiltersViewModel {
+    private lazy var allFilters =  {
         FiltersViewModel(
             filters: Set(
                 originalArticlesData.compactMap({ $0.channelName })
             )
             .compactMap({ FilterViewModel(text: $0) })
         )
-    }
+    }()
 
     func loadArticles(decodeArticles: @escaping(() throws -> [Article]) = { try articlesJsonParser.decodeJSON() }) {
         guard let loadedArticles = try? decodeArticles() else { return }

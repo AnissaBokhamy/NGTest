@@ -16,8 +16,13 @@ class MainViewController: UITableViewController {
     @IBOutlet private weak var filterButton: UIBarButtonItem!
 
     // MARK: - Menu
-    private var filtersMenu: UIMenu {
-        return UIMenu.createFilterMenu(from: viewModel.allFilters, filteringHandler: viewModel.filterByChannelName)
+    private var filtersMenu: UIMenu? {
+        guard let filters = viewModel.filters else { return nil }
+        return UIMenu.createFilterMenu(
+            from: filters,
+            removeFilterHandler: viewModel.removeAllFilters,
+            filteringHandler: viewModel.filterByChannelName
+        )
     }
 
     // MARK: - Lifecycle
