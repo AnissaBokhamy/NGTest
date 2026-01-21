@@ -29,7 +29,7 @@ extension UIAction {
     static func createFilterAction(viewModel: FilterViewModel, handler: @escaping UIActionHandler) -> UIAction {
         UIAction(
             title: viewModel.text,
-            image: viewModel.isEnabled ? UIImage(named: "checkmark") : nil,
+            image: viewModel.isEnabled ? UIImage(systemName: "checkmark") : nil,
             handler: handler
         )
     }
