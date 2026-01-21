@@ -11,6 +11,9 @@ import Foundation
 class FiltersViewModel: ObservableObject {
 
     @Published var filters: [FilterViewModel]
+    var shouldDisplayRemoveFilterButton: Bool {
+        filters.contains(where: { $0.isEnabled })
+    }
 
     init(filters: [FilterViewModel]) {
         self.filters = filters

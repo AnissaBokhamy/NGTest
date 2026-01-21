@@ -61,4 +61,9 @@ class ArticleListViewModel: ObservableObject {
     func filterByChannelName(_ channelName: String) {
         articles = originalArticlesData.filter({ $0.channelName == channelName })
     }
+
+    func removeAllFilters() {
+        articles = originalArticlesData
+        filters?.filters.forEach({ $0.isEnabled = false })
+    }
 }

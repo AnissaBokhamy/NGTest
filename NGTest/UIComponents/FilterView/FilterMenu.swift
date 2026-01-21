@@ -10,9 +10,24 @@ import UIKit
 
 extension UIMenu {
 
-    static func createFilterMenu(from viewModel: FiltersViewModel, filteringHandler: @escaping (String) -> Void) -> UIMenu {
-        UIMenu(children:
-                viewModel.filters.compactMap({ filter in
+    static func createFilterMenu(
+        from viewModel: FiltersViewModel,
+        removeFilterHandler: @escaping ()-> Void,
+        filteringHandler: @escaping (String) -> Void
+    ) -> UIMenu {
+        let filtersActions = Self.filtersActions(viewModel: viewModel, filteringHandler: filteringHandler)
+        if viewModel.shouldDisplayRemoveFilterButton {
+            return UIMenu(children: [
+                UIAction.createRemoveFilterAction(handler: { _ in removeFilterHandler() }),
+                UIMenu(options: .displayInline, children: filtersActions),
+            ])
+        } else {
+            return UIMenu(children: filtersActions)
+        }
+    }
+
+    private static func filtersActions(viewModel: FiltersViewModel, filteringHandler: @escaping (String) -> Void) -> [UIAction] {
+        viewModel.filters.compactMap({ filter in
             UIAction.createFilterAction(
                 viewModel: filter,
                 handler: { _ in
@@ -21,7 +36,6 @@ extension UIMenu {
                 }
             )
         })
-        )
     }
 }
 
@@ -32,5 +46,9 @@ extension UIAction {
             image: viewModel.isEnabled ? UIImage(systemName: "checkmark") : nil,
             handler: handler
         )
+    }
+
+    static func createRemoveFilterAction(handler: @escaping UIActionHandler) -> UIAction {
+        UIAction(title: "Remove filter", image: UIImage(systemName: "xmark.app"), handler: handler)
     }
 }
