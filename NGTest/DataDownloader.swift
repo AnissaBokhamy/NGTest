@@ -34,16 +34,14 @@ struct DataDownloader<T> {
         guard let url = urlBuilder(urlString) else {
             throw DataDownloaderError.invalidURL
         }
-        var downloadedData: Data
         do {
             let downloadedData = try await downloader(url)
+            guard let convertedData = dataConverter(downloadedData) else {
+                throw DataDownloaderError.conversionError
+            }
+            return convertedData
         } catch {
             throw DataDownloaderError.downloadError
         }
-
-        guard let convertedData = dataConverter(downloadedData) else {
-            throw DataDownloaderError.conversionError
-        }
-        return convertedData
     }
 }
